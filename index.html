@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link para o arquivo css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfólio Pessoal</title>
+</head>
+<body>
+    <!-- Cabeçalho da pagina -->
+    <header class="row">
+        <div class="container">
+            <div id="logo-block">
+                <span id="logo">Portfólio</span>
+            </div>
+            <div id="nav-block">
+                <nav>
+                    <ul>
+                        <!-- Links que direcionam para as respectivas descrições -->
+                        <li><a href="#descritive">Sobre Mim</a></li>
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#cards">Portfólio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section id="banner">
+        <img src="img/cerebro.png" alt="">
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="descritive" class="row">
+        <div class="container">
+            <div id="descritive-block">
+                <h1>Sobre Mim</h1>
+                <p>Meu nome é Carlos Bizzotto, moro em Curitiba e sou apaixonado por programação e computadores. Ao longo dos anos, venho aprimorando minhas habilidades técnicas e explorando o mundo da tecnologia. Desenvolvo softwares, aplicativos e websites com a determinação de criar soluções eficazes para desafios reais. Estou sempre ansioso para aprender novas linguagens e tecnologias, mantendo-me atualizado com as tendências mais recentes do setor. Fora do mundo digital, gosto de jogar basquete. O basquete é um escape emocional e um modo de manter minha mente e corpo saudáveis. De vez em quando, dedico meu tempo à criação de músicas, pois é uma experiência que complementa perfeitamente minha vida. Quando estou buscando relaxar e desacelerar, a bicicleta é minha escolha, apreciando a paisagem e aproveitando o ar fresco. É uma ótima maneira de recarregar as energias e encontrar inspiração.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formação -->
+    <section class="row" id="formacao">
+        <div class="container">
+            <div class="demo-block">
+                <div class="demo-img">
+                    <img src="img/estudo.png" alt="">
+                </div>
+                <div class="demo-text">
+                    <h2>Formação</h2>
+                    <p>Sou formado em Informática para Internet. Já trabalhei por um ano como estagiário em uma agencia de publicidade. Tenho conhecimento avançado em inglês e estou atualmente no primeiro ano do curso de Analise e desenvolvimento de sistemas. Tenho sólido conhecimento em HTML, CSS, Javascript, PHP e um pouco de C#. Também tenho experiência com Linux e sistemas operacionais Windows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section id="cards" class="row">
+        <div class="container">
+            <div id="cards-block">
+                <h1>Portfólio</h1>
+                <div id="cards-row">
+                    <div class="card">
+
+                        <!-- Link para o projeto em java -->
+                        <div class="card-icon" id="link-java">
+                            <img src="img/java.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                Projeto de um cofrinho digital desenvolvido em java para a disciplina de programação orientada a objetos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Link para o projeto em python -->
+                    <div class="card">
+                        <div class="card-icon" id="link-python">
+                            <img src="img/python.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                Um controle de estoque desenvolvido na linguagem python para a disciplina de lógica de programação e algoritimos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Link para o projeto em javascript -->
+                    <div class="card">
+                        <div class="card-icon" id="link-js">
+                            <img src="img/javascript.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                Aqui temos um projeto de jogo da velha desenvolvido por mim como um hobbie utilizando HTML, CSS e Javascript.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Footer onde se encontra a parte de contato -->
+    <footer class="column" id="contato">
+        <div class="container">
+            <div id="contact-block">
+                <div id="form-block">
+                    <h2>Contato</h2>
+
+                    <!-- formulario -->
+                    <form action="#">
+                        <div id="form-wraper">
+                            <div id="inputs-personal">
+                                <input type="text" placeholder="Nome">
+                                <input type="text" placeholder="Telefone">
+                                <input type="text" placeholder="E-mail">
+                            </div>
+                            <textarea maxlength="50"></textarea>
+                        </div>
+                        <input class="submit-btn" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nome do desenvolvedor do site -->
+        <div id="desenvolvedor">
+            <p>Carlos Alexandre Pliskieviski Bizzotto</p>
+        </div>
+    </footer>
+
+    <!-- Link para o arquivo javascript -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
